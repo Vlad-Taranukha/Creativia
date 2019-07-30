@@ -1,0 +1,57 @@
+@import "assets/reset";
+
+
+.logo_wrapper{
+  width: 250px;
+  height: 100px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo_wrapper p{
+  color: #fff;
+  z-index: 999;
+  font: 24px Verdana, Sans-serif;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+}
+
+.logo_wrapper p a{
+  color: #fff;
+  z-index: 999;
+  font: 24px Verdana, Sans-serif;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+
+.rect{
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 40px;
+  width: 100%;
+  background: #131313;
+  border-right: 4px solid #ff0036;
+  border-left: 4px solid #ff0036;
+  box-sizing: border-box;
+}
+
+.trap{
+  position: absolute;
+  top: 51px;
+  right: 39px;
+  height: 60px;
+  width: 173px;
+  background: #131313;
+  border-right: 2.5px solid #ff0036;
+  border-left: 2.5px solid #ff0036;
+  border-top: 5px solid #ff0036;
+  transform:perspective(30px) rotateX(180grad);
+  box-sizing: border-box;
+
+}
+
+

@@ -1,11 +1,7 @@
-#octagon {
-  width: 250px;
-  height: 65px;
-  background: #131313;
-  border-right: 2px solid #ff0036;
-  border-left: 2px solid #ff0036;
-  border-top: 2px solid #ff0036;
-  transform: perspective(50px) rotateX(180grad); }
+* {
+  padding: 0;
+  margin: 0;
+  line-height: 1; }
 
 .logo_wrapper {
   width: 250px;
@@ -37,17 +33,21 @@
   height: 40px;
   width: 100%;
   background: #131313;
-  border-right: 2px solid #ff0036;
-  border-left: 2px solid #ff0036; }
+  border-right: 4px solid #ff0036;
+  border-left: 4px solid #ff0036;
+  box-sizing: border-box; }
 
 .trap {
   position: absolute;
   top: 51px;
-  right: 40px;
+  right: 39px;
   height: 60px;
-  width: 170px;
+  width: 173px;
   background: #131313;
-  border-right: 2px solid #ff0036;
-  border-left: 2px solid #ff0036;
-  border-top: 2px solid #ff0036;
-  transform: perspective(30px) rotateX(180grad); }
+  border-right: 2.5px solid #ff0036;
+  border-left: 2.5px solid #ff0036;
+  border-top: 5px solid #ff0036;
+  transform: perspective(30px) rotateX(180grad);
+  box-sizing: border-box; }
+
+/*# sourceMappingURL=style.bundle.css.map*/
