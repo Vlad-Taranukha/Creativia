@@ -1,0 +1,53 @@
+#octagon {
+  width: 250px;
+  height: 65px;
+  background: #131313;
+  border-right: 2px solid #ff0036;
+  border-left: 2px solid #ff0036;
+  border-top: 2px solid #ff0036;
+  transform: perspective(50px) rotateX(180grad); }
+
+.logo_wrapper {
+  width: 250px;
+  height: 100px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.logo_wrapper p {
+  color: #fff;
+  z-index: 999;
+  font: 24px Verdana, Sans-serif;
+  letter-spacing: 2px;
+  text-transform: capitalize; }
+
+.logo_wrapper p a {
+  color: #fff;
+  z-index: 999;
+  font: 24px Verdana, Sans-serif;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  text-decoration: none; }
+
+.rect {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 40px;
+  width: 100%;
+  background: #131313;
+  border-right: 2px solid #ff0036;
+  border-left: 2px solid #ff0036; }
+
+.trap {
+  position: absolute;
+  top: 51px;
+  right: 40px;
+  height: 60px;
+  width: 170px;
+  background: #131313;
+  border-right: 2px solid #ff0036;
+  border-left: 2px solid #ff0036;
+  border-top: 2px solid #ff0036;
+  transform: perspective(30px) rotateX(180grad); }
