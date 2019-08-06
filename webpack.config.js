@@ -15,7 +15,8 @@ module.exports = {
     },
     devtool: "source-map",
     module: {
-        rules: [{
+        rules: [
+            {
             test: /\.scss$/,
             use: [{
                 loader: "style-loader", options: {
@@ -30,7 +31,19 @@ module.exports = {
                     sourceMap: true
                 }
             }]
-        }]
+        },
+            {
+                test: /\.(png|jpe?g|gif)$/,
+                use: [
+                    {
+                        loader: 'file-loader',
+                        options: {
+                            publicPath:'',
+                            name:'images/[name].[ext]',
+                        },
+                    },
+                ],
+            },]
     },
     plugins: [
         new HtmlWebpackPlugin({
@@ -55,5 +68,9 @@ module.exports = {
                 to: './images'
             }
         ]),
+        new webpack.ProvidePlugin({
+            $: 'jquery',
+            jQuery: 'jquery'
+        }),
     ]
 };

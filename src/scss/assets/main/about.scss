@@ -1,0 +1,139 @@
+main{
+  #about{
+    padding: 100px;
+    background: #ffffff;
+
+    h2{
+      font: bold 30px Raleway, sans-serif;
+      color: #262626;
+      text-align: center;
+      margin-bottom: 50px;
+
+      span{
+        color: #ff0036;
+      }
+    }
+
+    p.about_slogan{
+      font: bold 16px Lato, sans-serif;
+      color: #505050;
+      text-align: center;
+      margin-bottom: 100px;
+    }
+
+    .about_list{
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 50px;
+
+      .about_text{
+        margin-right: 50px;
+
+        .pre_about_text{
+          font: 14px Raleway, sans-serif;
+          text-align: justify;
+          margin-bottom: 50px;
+        }
+
+        .about_points{
+
+          .point{
+            border: 1px solid #e7e7e7;
+            margin-bottom: 10px;
+
+
+            .point_header{
+              background: #f7f7f7;
+              display: flex;
+              border-bottom: 1px solid #e7e7e7;
+
+              .point_img{
+                align-self: center;
+
+                img{
+                  padding: 0 15px;
+
+                }
+              }
+
+              h3{
+                font: bold 20px Raleway, sans-serif;
+                color: #262626;
+                border-left: 1px solid #e7e7e7;
+                padding: 10px 30px;
+              }
+            }
+
+            .point_text{
+              display: none;
+              padding: 10px;
+              
+              p{
+                font: 16px Lato, sans-serif;
+                color: #505050;
+              }
+            }
+
+
+          }
+        }
+      }
+
+    }
+
+    .about_separator{
+      text-align: center;
+      margin-bottom: 50px;
+
+    }
+
+    .about_advantages{
+      display: flex;
+      justify-content: space-between;
+
+      .advantage{
+
+        &:hover {
+
+          &:first-of-type{
+
+            .advantage_img img{
+              margin-top: 0;
+            }
+          }
+
+          .advantage_img img{
+            margin-top: -76px;
+          }
+
+        }
+
+        .advantage_img{
+          margin: 0 auto;
+          width: 88px;
+          height: 76px;
+          overflow: hidden;
+
+          img{
+
+          }
+        }
+
+        h3{
+          font: bold 20px Raleway, sans-serif;
+          text-transform: uppercase;
+          color: #262626;
+          margin: 30px 0;
+          text-align: center;
+
+        }
+
+        p{
+          font: 16px Lato, sans-serif;
+          color: #505050;
+          text-align: center;
+        }
+      }
+    }
+  }
+}
