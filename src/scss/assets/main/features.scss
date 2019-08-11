@@ -20,5 +20,70 @@ main{
       color: #262626;
       margin-bottom: 50px;
     }
+
+    .features_items{
+      display: flex;
+      justify-content: space-between;
+
+      .feature_img{
+        position: relative;
+
+        .f_btn{
+          position: absolute;
+          bottom: 90px;
+          left: 0;
+          width: 100%;
+          text-align: center;
+
+          button{
+            background-color: #393939;
+            color: #ffffff;
+            padding: 15px 30px;
+            font: 18px Raleway, sans-serif;
+            text-transform: uppercase;
+            border: none;
+
+            &:hover{
+              background-color: #ff0036;
+              cursor: pointer;
+            }
+          }
+        }
+      }
+
+
+      .feature_item_1, .feature_item_2{
+        margin-top: 50px;
+
+        .feature{
+          border: 1px solid #e7e7e7;
+          padding: 20px 60px 20px 20px;
+          font: bold 18px Raleway, sans-serif;
+          text-transform: uppercase;
+          color: #262626;
+          margin-bottom: 20px;
+          background: url("../images/feature_mark.png") calc(100% - 10px) center no-repeat;
+
+          &:last-of-type{
+            margin-bottom: 0;
+          }
+
+          &:hover{
+            background-image: url("../images/feature_mark_active.png");
+            background-color: #ff0036;
+            color: #ffffff;
+            border: 1px solid #ff0036;
+            transition: background-color 0.2s, color 0.2s, border 0.2s;
+          }
+        }
+      }
+
+      .feature_item_2{
+        .feature{
+          background: url("../images/feature_mark.png") 10px center no-repeat;
+          padding: 20px 20px 20px 60px;
+        }
+      }
+    }
   }
 }

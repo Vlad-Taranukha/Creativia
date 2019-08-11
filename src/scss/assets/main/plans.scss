@@ -1,0 +1,117 @@
+main{
+  #plans{
+    
+    .plans_active_separator{
+      text-align: center;
+      margin-top: -9px;
+    }
+
+    .plans_inner_wrapper{
+      padding: 100px;
+      
+      h2{
+        text-align: center;
+        font: bold 30px Raleway, sans-serif;
+        color: #262626;
+        margin-bottom: 50px;
+
+        span{
+          color: #ff0036;
+        }
+      }
+      
+      p.plans_slogan{
+        text-align: center;
+        font: 16px Raleway, sans-serif;
+        color: #505050;
+        margin-bottom: 50px;
+      }
+
+      .plan_list{
+        display: flex;
+        justify-content: space-between;
+
+        .plan{
+
+          &:hover{
+            .plan_price{
+              background: #ff0036;
+
+              p{
+                color: #ffffff;
+              }
+            }
+
+            .order_plan{
+              button{
+                background: #ff0036;
+              }
+            }
+          }
+
+          h3{
+            font: 20px Raleway, sans-serif;
+            color: #ffffff;
+            background: #262626;
+            text-transform: uppercase;
+            padding: 15px 0;
+          }
+
+          .plan_price{
+            background: #e7e7e7;
+
+            p{
+              font: bold 30px Lato, sans-serif;
+              color: #262626;
+              text-align: center;
+              padding: 25px 0;
+
+              sub{
+                font-size: 16px;
+                font-weight: normal;
+              }
+            }
+          }
+
+          .plan_data{
+
+            p{
+              padding: 20px;
+              font: 16px Lato, sans-serif;
+              color: #262626;
+              border-bottom: 1px solid #e7e7e7;
+              border-left: 1px solid #e7e7e7;
+              border-right: 1px solid #e7e7e7;
+
+            }
+          }
+
+          .order_plan{
+
+            padding: 20px;
+            border-bottom: 1px solid #e7e7e7;
+            border-left: 1px solid #e7e7e7;
+            border-right: 1px solid #e7e7e7;
+
+            button{
+              width: 100%;
+              padding: 10px 0;
+              border: none;
+              outline: none;
+              font: 16px Raleway, sans-serif;
+              color: #ffffff;
+              text-transform: uppercase;
+              background: #262626;
+
+              &:hover{
+                cursor: pointer;
+              }
+
+            }
+          }
+
+        }
+      }
+    }
+  }
+}

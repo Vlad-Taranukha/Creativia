@@ -1,0 +1,20 @@
+main{
+
+  #twitter{
+    padding: 100px;
+    background: url("../images/twitter.png") 50px 110% no-repeat, #262626;
+    
+    .twitter_img{
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    p{
+      padding: 0 20%;
+      text-align: center;
+      font: 16px Raleway, sans-serif;
+      color: #ffffff;
+
+    }
+  }
+}
