@@ -1,7 +1,7 @@
 main{
   #social{
     background: url("../images/social_bg.jpg")center top no-repeat;
-    padding: 100px;
+    padding: 50px 100px;
 
     h2{
       text-align: center;
@@ -12,6 +12,40 @@ main{
 
       span{
         color: #ff0036;
+      }
+    }
+
+    .social_links{
+      display: flex;
+      justify-content: center;
+
+      .link{
+        margin-right: 50px;
+
+        &:last-of-type{
+          margin-right: 0;
+        }
+
+        a{
+          display: inline-block;
+          height: 68px;
+          text-align: center;
+          overflow: hidden;
+          margin-bottom: 50px;
+
+          &:hover{
+            img{
+              margin-top: -68px;
+            }
+          }
+
+        }
+
+        p{
+          text-align: center;
+          font: 16px Raleway, sans-serif;
+          color: #ffffff;
+        }
       }
     }
   }

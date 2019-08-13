@@ -1,0 +1,90 @@
+main{
+  #map{
+    padding-top: 50px;
+
+    h2{
+      font: bold 30px Raleway, sans-serif;
+      color: #262626;
+      text-align: center;
+      margin-bottom: 50px;
+
+      span{
+        color: #ff0036;
+      }
+
+    }
+
+    p.map_slogan{
+
+      font: 16px Raleway, sans-serif;
+      color: #505050;
+      text-align: center;
+      margin-bottom: 50px;
+    }
+
+    .map_block{
+      position: relative;
+      font-size: 0;
+
+      iframe{
+        width: 100%;
+        min-height: 580px;
+      }
+
+      .map_form{
+        position: absolute;
+        bottom: 0;
+        right: 10%;
+        padding: 50px;
+        background: #ffffff;
+
+        h3{
+          font: 20px Raleway, sans-serif;
+          color: #262626;
+          text-transform: uppercase;
+          margin-bottom: 50px;
+        }
+
+        form{
+
+          input[type="text"], input[type="email"]{
+            min-width: 300px;
+            width: 100%;
+            border: 1px solid #e7e7e7;
+            margin-bottom: 20px;
+            padding: 10px 15px;
+            box-sizing: border-box;
+
+            &::placeholder{
+              font: 16px Raleway, sans-serif;
+              color: #505050;
+              text-transform: capitalize;
+            }
+          }
+
+          textarea{
+            resize: none;
+            width: 100%;
+            margin-bottom: 20px;
+            border: 1px solid #e7e7e7;
+          }
+
+          .submit_btn{
+            text-align: right;
+
+            input[type="submit"]{
+              padding: 15px 30px;
+              background: #262626;
+              color: #ffffff;
+              font: 16px Raleway, sans-serif;
+              text-transform: uppercase;
+              border: none;
+            }
+          }
+
+
+        }
+      }
+    }
+  }
+}
